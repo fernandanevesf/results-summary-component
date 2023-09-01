@@ -1,7 +1,7 @@
 'use strict'
 
 async function getData(){
-    const requestURL = "data.json";
+    const requestURL = "/js/data.json";
     const request = new Request(requestURL);
 
     const response = await fetch(request);
