@@ -10,45 +10,47 @@
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
-<body>
-<section class="your-result">
-  <h1>Your Result</h1>
-  <p><span>76</span>
-  of 100</p>
 
-  <h2>Great</h2>
-  <p>You scored higher than 65% of the people who have taken these tests.</p>
+<body>
+<main>
+<div class="main-wrapper">
+<section class="your-result">
+<h1>Your Result</h1>
+<div class="result-circle"><p class="circle-p"><span class="result-number">76</span>
+of 100</p></div>
+
+<h2>Great</h2>
+<p class="ranking">You scored higher than 65% of the people who have taken these tests.</p>
 </section>
 
 <section class="summary">
 
-  <h2>Summary</h2>
-  
-<table>
-<tr>
-  <td class="category"><img alt=""/> </td>
-  <td class="score"> </td>
-</tr>
+<h2>Summary</h2>
 
-<tr>
-  <td class="category"><img alt=""/> </td>
-  <td class="score"> </td>
-</tr>
+<div class="results-row row-1">
+<div class="left"><img alt=""/> <div class="category"></div> </div>
+<div class="right"><div class="score"></div><span>&nbsp; &#47; 100</span> </div>
+</div>
 
-  <tr>
-    <td class="category"><img alt=""/> </td>
-    <td class="score"> </td>
-  </tr>
-  
-  <tr>
-    <td class="category"><img alt=""/> </td>
-    <td class="score"> </td>
-  </tr>
-</table>
+<div class="results-row row-2">
+<div class="left"><img alt=""/> <div class="category"></div> </div>
+<div class="right"><div class="score"></div><span>&nbsp; &#47; 100</span> </div>
+</div>
+
+<div class="results-row row-3">
+<div class="left"><img alt=""/> <div class="category"></div> </div>
+<div class="right"><div class="score"></div><span>&nbsp; &#47; 100</span> </div>
+</div>
+
+<div class="results-row row-4">
+<div class="left"><img alt=""/> <div class="category"></div> </div>
+<div class="right"><div class="score"></div><span>&nbsp; &#47; 100</span> </div>
+</div>
 
 <button>Continue</button>
 </section>
-
+</div><!--main-wrapper--> 
+</main>
 <footer class="attribution">
   Challenge by <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV" target="_blank">Frontend Mentor</a>. 
   Coded by <a href="https://www.frontendmentor.io/profile/fernandanevesf">Fernanda</a>.

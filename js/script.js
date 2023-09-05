@@ -17,11 +17,17 @@ function fillSummary(obj){
     const category = document.querySelectorAll(".category");
     const score = document.querySelectorAll(".score");
 
-    for( const el of elements){
-        img.src = `${el.icon}`
-        category.textContent = `${el.category}`;
-        score.textContent = `${el.score}`;
-    }
+    for (let i = 0; i < elements.length; ++i) {
+        img[i].src = `${elements[i].icon}`;
+      }
+
+    for (let i = 0; i < elements.length; ++i) {
+        category[i].textContent = `${elements[i].category}`;
+      }
+
+    for (let i = 0; i < elements.length; ++i) {
+        score[i].textContent = `${elements[i].score}`;
+      }
     
 }
 
